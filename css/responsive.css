@@ -1,0 +1,476 @@
+@media screen and (max-width: 1199px) {
+	.main_menu > li{
+		margin-left: 20px;
+	}
+	.main_menu > li > a{
+		font-size: 15px;
+	}
+	.home_txt h3,.home_txt h3 span,.home_txt h2{
+		font-size: 40px;
+	}
+	.home_txt h2 span{
+		font-size: 13px;
+	}
+	.about_txt h2,.sc_head h2{
+		font-size: 26px;
+	}
+	.item_proCaption h2,.txt_rs_car > h2{
+		font-size: 18px;
+	}
+	.time_txt h3{
+		font-size: 14px;
+	}
+	.ft_box h2,.box_subscription h2{
+		font-size: 22px;
+	}
+	.mn_txt_news h2{
+		font-size: 22px;
+	}
+	.head_line h2{
+		font-size: 20px;
+	}
+	.nw_txt h2{
+		font-size: 16px;
+	}
+	.title_page h2{
+		font-size: 24px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.bottom_header{
+		display: none;
+	}
+	.top_menu,.head_social{
+		display: none !important;
+	}
+	.search_mobile,#header .menu-trigger{
+		display: inline-block !important;
+	}
+	.home_txt h3,.home_txt h3 span,.home_txt h2{
+		font-size: 30px;
+	}
+	.home_txt h2 span{
+		font-size: 10px;
+	}
+	.about_txt h2,.sc_head h2{
+		font-size: 24px;
+	}
+	.about_txt p,.sc_head p,.item_proCaption p,.txt_rs_car > p,.txt_editor p,.txt_editor ol li,
+	.mn_txt_news p{
+		font-size: 15px;
+	}
+	.vedio_btn{
+		bottom: 20px;
+	}
+	.section_booking_appointments .sc_head{
+		padding-top: 20px;
+	}
+	.box_item .btn_prim{
+		font-size: 14px;
+	}
+	.section_offers{
+		padding: 100px 0;
+	}
+	.section_offers{
+		background-size: 380px;
+	}
+	.ft_box h2,.box_subscription h2{
+		font-size: 20px;
+	}
+	.box_subscription{
+		max-width: 500px;
+		margin: auto;
+	}
+	.bottom_footer{
+		padding-top: 30px;
+		-webkit-box-align: center!important;
+    	-ms-flex-align: center!important;
+    	align-items: center!important;
+    	-webkit-box-pack: start!important;
+    	-ms-flex-pack: start!important;
+    	justify-content: start!important;
+	}
+	.copy_right{
+		margin-right: auto !important;
+		margin-left: 0 !important;
+	}
+	.banner_page_inner{
+		padding: 50px 0;
+	}
+	.info_bx_txt h3,.box_branch h2{
+		font-size: 16px;
+	}
+	.head_sub_bk h3{
+		font-size: 22px;
+	}
+	.head_sub_bk{
+		padding-top: 20px;
+	}
+	.txt_editor h2{
+		font-size: 24px;
+	}
+	.cate_box_item h2{
+		font-size: 16px;
+	}
+	.mn_txt_news h2{
+		font-size: 20px;
+	}
+	.hidden_md{
+		display: none !important;
+	}
+	.hidden_lg{
+		display: block;
+	}
+	.title_page h2{
+		font-size: 22px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.top_header{
+		padding: 20px 0;
+	}
+	#slide_home .owl-nav{
+		display: none !important;
+	}
+	.section_home:before{
+		display: none;
+	}
+	#slide_home .owl-dots{
+		right: auto;
+		left: 50%;
+		bottom: 30px;
+		transform: translateX(-50%);
+	}
+	#slide_home .owl-dots button{
+		display: inline-block;
+		margin: 3px;
+	}
+	.section_home{
+		background-color: #CF3F44;
+		background-image: none;
+	}
+	.item_slide{
+		padding: 50px 0;
+	}
+	.home_txt {
+		-webkit-box-pack: center!important;
+    	-ms-flex-pack: center!important;
+    	justify-content: center!important;
+	}
+	.item_slide .btn_prim{
+		display: table;
+		margin: 20px auto;
+	}
+	.about_txt h2,.sc_head h2{
+		font-size: 22px;
+	}
+	.section_about{
+		padding: 50px 0;
+	}
+	.section_booking_appointments{
+		background-color: #F5F5F5;
+		background-image: none;
+	}
+	.book_pic{
+		margin-bottom: 0;
+	}
+	.section_offers{
+		padding: 50px 0;
+		background-size: 300px;
+	}
+	.ft_box h2,.box_subscription h2{
+		font-size: 18px;
+	}
+	#footer{
+		background-image: none;
+		background: #CF3F44;
+	}
+	#footer{
+		padding: 80px 0 30px;
+	}
+	.center-screen{
+		width: 80%;
+	}
+	.head_search_title h2{
+		font-size: 24px;
+	}
+	.item_proCaption h2,.txt_rs_car > h2{
+		height: auto;
+		font-size: 16px;
+	}
+	.item_proCaption p,.txt_rs_car > p{
+		height: auto;
+	}
+	.pagination_sty li > a{
+		font-size: 16px;
+		width: 40px;
+		height: 40px;
+	}
+	.breadcrumb_sty li{
+		font-size: 16px;
+	}
+	.about_bk_inner{
+		padding-bottom: 20px;
+	}
+	.head_sub_bk h3{
+		font-size: 20px;
+	}
+	.txt_editor h2{
+		font-size: 20px;
+	}
+	.accordion_sty .btn-link{
+		font-size: 16px;
+	}
+	.accordion_sty .btn-link:after{
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+	}
+	.head_group_title h2{
+		font-size: 16px;
+	}
+	.mn_txt_news h2{
+		font-size: 18px;
+	}
+	.mn_thumb_news{
+		margin-bottom: 20px;
+	}
+	.head_line h2{
+		font-size: 18px;
+	}
+	.nw_txt h2{
+		font-size: 15px;
+	}
+	.carTop_det p{
+		font-size: 15px;
+	}
+	.title_sub{
+		font-size: 16px;
+	}
+	.thumb_bk{
+		margin-bottom: 20px;
+	}
+	.programe_pic{
+		margin: 0 auto 20px;
+	}
+	.bk_programe{
+		padding: 30px 0;
+	}
+	.bk_car_middle{
+		padding: 40px 0;
+	}
+	.car_middle_rw{
+		margin-bottom: 20px;
+	}
+	.pro_bThumb{
+		height: 250px;
+	}
+	.title_page h2{
+		font-size: 20px;
+	}
+	.txt_rs_car{
+		padding-top: 20px;
+	}
+	.bk_not_result h3{
+		font-size: 18px;
+	}
+	.bk_tabs_search{
+		padding: 30px 0;
+	}
+	.title_grp{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 575px) {
+	.btn_prim{
+		font-size: 14px;
+		height: 46px;
+	}
+	.home_txt{
+		display: block !important;
+		text-align: center;
+	}
+	.home_txt h3{
+		margin: 0;
+	}
+	.home_txt h3,.home_txt h3 span,.home_txt h2{
+		font-size: 24px;
+	}
+	.home_txt h2 span{
+		font-size: 10px;
+	}
+	.home_txt h3 span,.home_txt h2 span{
+		display: inline-block;
+		margin-right: 3px;
+	}
+	.about_txt h2,.sc_head h2{
+		font-size: 20px;
+	}
+	.vedio_txt{
+		font-size: 16px;
+	}
+	.vedio_txt > span{
+		font-size: 12px;
+	}
+	.icon_play{
+		width: 45px;
+		height: 45px;
+		background-size: 45px;
+	}
+	.vedio_btn:before{
+		width: 150px;
+		height: 80px;
+		bottom: -60px;
+	}
+	.vedio_btn{
+		padding: 15px;
+	}
+	.about_txt p, .sc_head p,.txt_editor p,.txt_editor ol li{
+		font-size: 14px;
+	}
+	.section_offers{
+		background-size: 250px;
+	}
+	.time_date span{
+		width: 35px;
+		height: 35px;
+		font-size: 14px;
+		padding: 10px 2px;
+	}
+	.time_txt h3{
+		font-size: 12px;
+	}
+	.item_proCaption h2,.txt_rs_car > h2{
+		font-size: 16px;
+	}
+	.bottom_footer{
+		display: block !important;
+	}
+	.copy_right{
+		text-align: center;
+		margin-top: 10px;
+	}
+	.bt_menu{
+		display: table;
+		margin: auto;
+	}
+	.group_info p,.ft_menu li > a{
+		font-size: 14px;
+	}
+	#footer{
+		padding: 50px 0 20px;
+	}
+	.box_subscription{
+		padding: 20px 15px 25px;
+	}
+	.box_subscription p{
+		font-size: 14px;
+	}
+	.icon_box{
+		max-width: 130px;
+		margin-top: -120px;
+	}
+	.center-screen{
+		width: 95%;
+	}
+	.head_search_title h2{
+		font-size: 20px;
+	}
+	.banner_page_inner{
+		padding: 30px 0;
+	}
+	.info_bx_txt h3,.box_branch h2{
+		font-size: 15px;
+	}
+	.info_bx_txt p,.box_branch p,.head_sub_bk p,.form_sty .form-control,
+	.mn_txt_news p{
+		font-size: 14px;
+	}
+	.box_branch{
+		padding: 25px 15px;
+	}
+	.head_sub_bk h3{
+		font-size: 18px;
+	}
+	.txt_editor ol li:before{
+		top: 5px;
+	}
+	.txt_editor h2{
+		font-size: 18px;
+	}
+	.txt_editor h3{
+		font-size: 16px;
+	}
+	.accordion_sty .btn-link{
+		font-size: 15px;
+	}
+	.accordion_sty .btn-link:after{
+		width: 32px;
+		height: 32px;
+		line-height: 32px;
+	}
+	.mn_txt_news h2{
+		font-size: 16px;
+	}
+	.nw_thumb > span{
+		width: 85px;
+		height: 80px;
+	}
+	.nw_txt h2{
+		line-height: 22px;
+		max-height: 44px;
+	}
+	.car_note_txt{
+		width: 100%;
+	}
+	.mb_car_colors{
+		position: static;
+		width: 100%;
+		max-width: 100%;
+	}
+	.pro_bThumb{
+		height: 200px;
+	}
+	.title_page h2{
+		font-size: 18px;
+	}
+	.banner_page_inner .container{
+		display: block !important;
+	}
+	.title_page{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.banner_page_inner .btn_prim{
+		display: table;
+		margin: auto;
+	}
+	.carTop_det p{
+		font-size: 14px;
+	}
+	.category_itm{
+		font-size: 14px;
+	}
+	.bk_not_result h3{
+		font-size: 16px;
+	}
+	.bk_not_result p{
+		font-size: 14px;
+	}
+	.bk_not_result img{
+		max-width: 120px;
+	}
+	.title_grp{
+		font-size: 14px;
+	}
+	.radio_txt{
+		width: 145px;
+	}
+	.choise_pay_item{
+		margin-left: 10px;
+	}
+	.radio_txt{
+		font-size: 14px;
+		padding: 15px 15px 8px 40px;
+	}
+}

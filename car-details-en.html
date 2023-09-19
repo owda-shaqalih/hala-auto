@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>هلا أوتو</title>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/animate.min.css">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+	<link href="css/all.css" rel="stylesheet">
+	<link href="css/owl.carousel.min.css" rel="stylesheet">
+	<link href="css/owl.theme.default.min.css" rel="stylesheet">
+	<link href="css/slick.css" rel="stylesheet">
+	<link href="css/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+	<link href="css/style.css" rel="stylesheet">
+	<!-- Responsive -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/ltr.css" rel="stylesheet">
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <script src="js/jquery-1.12.2.min.js"></script>
+</head>
+<body>
+	<!-- preloader -->
+	<div id="preloader">
+	    <div id="spinner">
+	        <div class="floating">
+	            <img src="images/logo.svg" alt="" class="img-responsive">
+	        </div>
+	    </div>
+	</div>
+	<div id="search">
+        <button type="button" class="search_close"><img src="images/close.svg" alt=""></button>
+        <div class="center-screen">
+	        <form action="#" class="form_search" method="get">
+	        	<div class="head_search_title">
+	        		<h2>البحث</h2>
+	        		<p>تويوتا,  لكزس.. </p>
+	        	</div>
+				<div class="form-group form_search_field">
+					<button type="submit" class="btn search_submit"><img src="images/zoom.svg" alt=""></button>
+					<input type="text" name="search" class="form-control" placeholder="ابحث هنا">
+				</div>
+			</form>
+		</div>
+    </div>
+	<div class="mobile-menu">
+	    <div class="menu-mobile">
+	        <div class="brand-area">
+	            <a href="index.html">
+	            	<img src="images/logo.svg" alt="">
+	            </a>
+	        </div>
+	        <div class="mmenu">
+		        <ul class="menu_xs">
+					<li><a href="index.html">الرئيسية</a></li>
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">تويوتا</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">تويوتا</a></li>
+							<li><a href="#">تويوتا</a></li>
+							<li><a href="#">تويوتا</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">لكزس</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">لكزس</a></li>
+							<li><a href="#">لكزس</a></li>
+							<li><a href="#">لكزس</a></li>
+						</ul>
+					</li>
+					<li><a href="online-sales.html">طلب شراء</a></li>
+					<li><a href="offers.html"><i class="fas fa-star"></i>العروض</a></li>
+					<li><a href="spare-parts.html">قطع غيار</a></li>
+					<li><a href="book-appointment.html">حجز مواعيد الصيانة</a></li>
+					<li><a href="about.html">من نحن</a></li>
+					<li><a href="contact.html">اتصل بنا</a></li>
+				</ul>
+				<ul class="menu_xs">
+					<li><a href="news.html">الأخبار</a></li>
+					<li><a href="jobs.html">التوظيف</a></li>
+				</ul>
+			</div>
+			<ul class="mobile_social clearfix">
+				<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
+		<div class="m-overlay"></div>
+	</div><!--mobile-menu-->
+	<div class="main-wrapper">
+		<header id="header">
+			<div class="container">
+				<div class="top_header d-flex align-items-center">
+					<div class="logo_site">
+						<a href="index.html"><img src="images/logo.svg" alt=""></a>
+					</div>
+					<div class="top_head_left mr-auto  d-flex align-items-center">
+						<ul class="top_menu clearfix">
+							<li><a href="news.html"><span class="mn_icon"><img src="images/news.svg"></span>الاخبار</a></li>
+							<li><a href="jobs.html"><span class="mn_icon"><img src="images/career.svg"></span>التوظيف</a></li>
+							<li><a href="#search"><span class="mn_icon"><img src="images/zoom.svg"></span>بحث</a></li>
+						</ul>
+						<div class="lang_btn dropdown">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">عربي<i class="fal fa-chevron-down"></i></a>
+							<ul class="dropdown-menu dropdown_lang">
+								<li><a href="#">عربي</a></li>
+								<li><a href="#">English</a></li>
+							</ul>
+						</div>
+						<div class="search_mobile">
+							<a href="#search" class="btn_search_mb"><img src="images/zoom.svg" alt=""></a>
+						</div>
+						<a class="menu-trigger ml-auto">
+							<span>Menu</span>
+						</a>
+						<ul class="head_social clearfix">
+							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="bottom_header">
+					<ul class="main_menu clearfix">
+						<li class="active"><a href="index.html">الرئيسية</a></li>
+						<li class="dropdown">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">تويوتا</a>
+							<div class="dropdown-menu mega-menu">
+								<div class="dropdown_head_tab">
+									<div class="container">
+										<ul class="nav nav-tabs" id="myTab" role="tablist">
+										  	<li class="nav-item">
+										    	<a class="nav-link active" id="toyota-first-tab" data-toggle="tab" href="#toyota-first" role="tab" aria-controls="toyota-first" aria-selected="true">السيدان</a>
+										  	</li>
+										  	<li class="nav-item">
+										    	<a class="nav-link" id="toyota-secound-tab" data-toggle="tab" href="#toyota-secound" role="tab" aria-controls="toyota-secound" aria-selected="false">السيارات الرياضية متعددة الإستخدامات</a>
+										  	</li>
+										  	<li class="nav-item">
+										    	<a class="nav-link" id="toyota-third-tab" data-toggle="tab" href="#toyota-third" role="tab" aria-controls="toyota-third" aria-selected="false"> السيارات التجارية</a>
+										  	</li>
+										  	<li class="nav-item">
+										    	<a class="nav-link" id="toyota-fourth-tab" data-toggle="tab" href="#toyota-fourth" role="tab" aria-controls="toyota-fourth" aria-selected="false"> السيارات التجارية</a>
+										  	</li>
+										</ul>
+									</div>
+								</div>
+								<div class="dropdown_content">
+									<div class="container">
+										<div class="tab-content" id="myTabContent">
+										  	<div class="tab-pane fade show active" id="toyota-first" role="tabpanel" aria-labelledby="toyota-first-tab">
+										  		<div class="category_items_list">
+										  			<div class="row">
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/yaris.png" alt="">
+										  						</a>
+										  						<h2>YARIS 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/corolla.png" alt="">
+										  						</a>
+										  						<h2>COROLLA 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/supra.png" alt="">
+										  						</a>
+										  						<h2>SUPRA 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/camry.png" alt="">
+										  						</a>
+										  						<h2>CAMRY 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/avalon.png" alt="">
+										  						</a>
+										  						<h2>AVALON 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  			</div>
+										  		</div>
+										  		<div class="more_bk_btn">
+										  			<a href="vehicles-toyota.html" class="btn btn_prim btn_dt">عرض جميع المركبات<span class="btn_icon"><i class="far fa-long-arrow-left"></i></span></a>
+										  		</div>
+										  	</div>
+										  	<div class="tab-pane fade" id="toyota-secound" role="tabpanel" aria-labelledby="toyota-secound-tab">
+										  		<div class="category_items_list">
+										  			<div class="row">
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/yaris.png" alt="">
+										  						</a>
+										  						<h2>YARIS 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/corolla.png" alt="">
+										  						</a>
+										  						<h2>COROLLA 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/supra.png" alt="">
+										  						</a>
+										  						<h2>SUPRA 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/avalon.png" alt="">
+										  						</a>
+										  						<h2>AVALON 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  			</div>
+										  		</div>
+										  		<div class="more_bk_btn">
+										  			<a href="vehicles-toyota.html" class="btn btn_prim btn_dt">عرض جميع المركبات<span class="btn_icon"><i class="far fa-long-arrow-left"></i></span></a>
+										  		</div>
+										  	</div>
+										  	<div class="tab-pane fade" id="toyota-third" role="tabpanel" aria-labelledby="toyota-third-tab">
+										  		<div class="category_items_list">
+										  			<div class="row">
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/yaris.png" alt="">
+										  						</a>
+										  						<h2>YARIS 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/avalon.png" alt="">
+										  						</a>
+										  						<h2>AVALON 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  			</div>
+										  		</div>
+										  		<div class="more_bk_btn">
+										  			<a href="vehicles-toyota.html" class="btn btn_prim btn_dt">عرض جميع المركبات<span class="btn_icon"><i class="far fa-long-arrow-left"></i></span></a>
+										  		</div>
+										  	</div>
+										  	<div class="tab-pane fade" id="toyota-fourth" role="tabpanel" aria-labelledby="toyota-fourth-tab">
+										  		<div class="category_items_list">
+										  			<div class="row">
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/yaris.png" alt="">
+										  						</a>
+										  						<h2>YARIS 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  			</div>
+										  		</div>
+										  		<div class="more_bk_btn">
+										  			<a href="vehicles-toyota.html" class="btn btn_prim btn_dt">عرض جميع المركبات<span class="btn_icon"><i class="far fa-long-arrow-left"></i></span></a>
+										  		</div>
+										  	</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="dropdown">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">لكزس</a>
+							<div class="dropdown-menu mega-menu">
+								<div class="dropdown_head_tab">
+									<div class="container">
+										<ul class="nav nav-tabs" id="myTab2" role="tablist">
+										  	<li class="nav-item">
+										    	<a class="nav-link active" id="luxis-first-tab" data-toggle="tab" href="#luxis-first" role="tab" aria-controls="luxis-first" aria-selected="true">السيدان</a>
+										  	</li>
+										  	<li class="nav-item">
+										    	<a class="nav-link" id="luxis-secound-tab" data-toggle="tab" href="#luxis-secound" role="tab" aria-controls="luxis-secound" aria-selected="false">الدفع الرباعي</a>
+										  	</li>
+										</ul>
+									</div>
+								</div>
+								<div class="dropdown_content">
+									<div class="container">
+										<div class="tab-content" id="myTabContent2">
+										  	<div class="tab-pane fade show active" id="luxis-first" role="tabpanel" aria-labelledby="luxis-first-tab">
+										  		<div class="category_items_list">
+										  			<div class="row">
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/yaris.png" alt="">
+										  						</a>
+										  						<h2>YARIS 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/corolla.png" alt="">
+										  						</a>
+										  						<h2>COROLLA 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/supra.png" alt="">
+										  						</a>
+										  						<h2>SUPRA 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/camry.png" alt="">
+										  						</a>
+										  						<h2>CAMRY 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/avalon.png" alt="">
+										  						</a>
+										  						<h2>AVALON 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  			</div>
+										  		</div>
+										  		<div class="more_bk_btn">
+										  			<a href="vehicles-toyota.html" class="btn btn_prim btn_dt">عرض جميع المركبات<span class="btn_icon"><i class="far fa-long-arrow-left"></i></span></a>
+										  		</div>
+										  	</div>
+										  	<div class="tab-pane fade" id="luxis-secound" role="tabpanel" aria-labelledby="luxis-secound-tab">
+										  		<div class="category_items_list">
+										  			<div class="row">
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/yaris.png" alt="">
+										  						</a>
+										  						<h2>YARIS 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/corolla.png" alt="">
+										  						</a>
+										  						<h2>COROLLA 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/supra.png" alt="">
+										  						</a>
+										  						<h2>SUPRA 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  				<div class="col-xl-3 col-lg-4">
+										  					<div class="cate_box_item">
+										  						<a href="car-details.html" class="thumb_car">
+										  							<img src="images/avalon.png" alt="">
+										  						</a>
+										  						<h2>AVALON 2022</h2>
+										  						<ul class="car_menu clearfix">
+										  							<li><a href="car-details.html">نظرة عامة</a></li>
+										  							<li><a href="#">اطلب الأن</a></li>
+										  						</ul>
+										  					</div>
+										  				</div>
+										  			</div>
+										  		</div>
+										  		<div class="more_bk_btn">
+										  			<a href="vehicles-toyota.html" class="btn btn_prim btn_dt">عرض جميع المركبات<span class="btn_icon"><i class="far fa-long-arrow-left"></i></span></a>
+										  		</div>
+										  	</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="online-sales.html">طلب شراء</a></li>
+						<li><a href="offers.html"><i class="fas fa-star"></i>العروض</a></li>
+						<li><a href="spare-parts.html">قطع غيار</a></li>
+						<li><a href="book-appointment.html">حجز مواعيد الصيانة</a></li>
+						<li><a href="about.html">من نحن</a></li>
+						<li><a href="contact.html">اتصل بنا</a></li>
+					</ul>
+				</div>
+			</div>
+		</header><!--header-->
+		<div class="banner_page_inner">
+			<div class="container d-flex align-items-center">
+				<div class="title_page"><h2>RAIZE 2022</h2></div>
+				<a href="#" class="btn btn_prim mr-auto">طلب السيارة اون لاين<span class="btn_icon"><i class="far fa-long-arrow-left"></i></span></a>
+			</div>
+		</div>
+		<div class="layout_inner_content">
+			<div class="bk_car_top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="carTop_det">
+								<div class="logo_car">
+									<img src="images/raize.svg" alt="">
+								</div>
+								<p>سيارة كروس اوفر مدمجة جديدة بتصميم ديناميكي ومميز لأسلوب حياة عصرية وحيوية. تتيح منصة RAIZE الجديدة ثباتًا على مستوى عالمي في المناورة وراحة في القيادة</p>
+							</div>
+							<div class="tag_note">
+								<div class="tag_icon">
+									<img src="images/taag.svg" alt="">
+								</div>
+								<p>جميع الأسعار المذكورة تشمل نسبة ضريبة القيمة المضافة 15% ، ولا تشمل رسوم التسجيل وقسط التأمين على المركبة.</p>
+							</div>
+							<h2 class="title_sub">متوفرة بالألوان التالية</h2>
+						</div>
+						<div class="col-lg-8">
+							<div class="bk_car_slider">
+								<div class="slider slider-for" dir="rtl">
+									<div class="item">
+										<div class="pro_bThumb">
+											<img src="images/tur.png" alt="">
+										</div>
+										<div class="car_note_txt">
+											<h3>تركواز بسقف أسود</h3>
+											<p>هذا اللون متوفر فقط على فئة <span>LIMITED</span></p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="pro_bThumb">
+											<img src="images/tur.png" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="pro_bThumb">
+											<img src="images/tur.png" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="pro_bThumb">
+											<img src="images/tur.png" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="pro_bThumb">
+											<img src="images/tur.png" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="pro_bThumb">
+											<img src="images/tur.png" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="pro_bThumb">
+											<img src="images/tur.png" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="pro_bThumb">
+											<img src="images/tur.png" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="pro_bThumb">
+											<img src="images/tur.png" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="pro_bThumb">
+											<img src="images/tur.png" alt="">
+										</div>
+									</div>
+									<div class="item">
+										<div class="pro_bThumb">
+											<img src="images/tur.png" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="mb_car_colors">
+									<div class="slider slider-nav"  dir="rtl">
+										<div class="thumb-item">
+											<span style="background-color: #1E1D23;"></span>
+										</div>
+										<div class="thumb-item">
+											<span style="background-color: #404040;"></span>
+										</div>
+										<div class="thumb-item">
+											<span style="background-color: #A93935;"></span>
+										</div>
+										<div class="thumb-item">
+											<span style="background-color: #CED0CF;"></span>
+										</div>
+										<div class="thumb-item">
+											<span style="background-color: #77BBD9;"></span>
+										</div>
+										<div class="thumb-item">
+											<span style="background-color: #C4B555;"></span>
+										</div>
+										<div class="thumb-item">
+											<span style="background-color: #F1F1F1;"></span>
+										</div>
+										<div class="thumb-item">
+											<span style="background-color: #A93935;"></span>
+										</div>
+										<div class="thumb-item">
+											<span style="background-color: #CED0CF;"></span>
+										</div>
+										<div class="thumb-item">
+											<span style="background-color: #C4B555;"></span>
+										</div>
+										<div class="thumb-item">
+											<span style="background-color: #F1F1F1;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bk_full_details">
+				<div class="container">
+					<h2 class="title_sub">المواصفات الكاملة</h2>
+					<ul class="nav nav-tabs tabs_details" id="myTab-details" role="tablist">
+					  	<li class="nav-item">
+					    	<a class="nav-link active" id="xle-tab" data-toggle="tab" href="#xle" role="tab" aria-controls="xle" aria-selected="true">
+					    		<h3>XLE</h3>
+					    		<p>السعر<span> 63,595 ريال سعودي</span></p>
+					    	</a>
+					  	</li>
+					  	<li class="nav-item">
+					    	<a class="nav-link" id="limited-tab" data-toggle="tab" href="#limited" role="tab" aria-controls="limited" aria-selected="false">
+					    		<h3>LIMITED</h3>
+					    		<p>السعر<span> 63,595 ريال سعودي</span></p>
+					    	</a>
+					  	</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+					  	<div class="tab-pane fade show active" id="xle" role="tabpanel" aria-labelledby="xle-tab">
+					  		<div class="row">
+					  			<div class="col-lg-4 col-sm-6">
+					  				<div class="group_points">
+					  					<p>المحرك: 1.2 لتر، 3-اسطوانات </p>
+					  					<p>القوة القصوى: 87 حصان</p>
+					  					<p>العزم الأقصى 113 ن.م / 4500 د.د</p>
+					  					<p>ناقل حركة تتابعي متغير  (CVT)</p>
+					  				</div>
+					  			</div>
+					  			<div class="col-lg-4 col-sm-6">
+					  				<div class="group_points">
+					  					<p>المحرك: 1.2 لتر، 3-اسطوانات </p>
+					  					<p>القوة القصوى: 87 حصان</p>
+					  					<p>العزم الأقصى 113 ن.م / 4500 د.د</p>
+					  					<p>ناقل حركة تتابعي متغير  (CVT)</p>
+					  				</div>
+					  			</div>
+					  			<div class="col-lg-4 col-sm-6">
+					  				<div class="group_points">
+					  					<p>المحرك: 1.2 لتر، 3-اسطوانات </p>
+					  					<p>القوة القصوى: 87 حصان</p>
+					  					<p>العزم الأقصى 113 ن.م / 4500 د.د</p>
+					  					<p>ناقل حركة تتابعي متغير  (CVT)</p>
+					  				</div>
+					  			</div>
+					  		</div>
+					  	</div>
+					  	<div class="tab-pane fade" id="limited" role="tabpanel" aria-labelledby="limited-tab">
+					  		<div class="row">
+					  			<div class="col-lg-4 col-sm-6">
+					  				<div class="group_points">
+					  					<p>المحرك: 1.2 لتر، 3-اسطوانات </p>
+					  					<p>القوة القصوى: 87 حصان</p>
+					  					<p>العزم الأقصى 113 ن.م / 4500 د.د</p>
+					  					<p>ناقل حركة تتابعي متغير  (CVT)</p>
+					  				</div>
+					  			</div>
+					  			<div class="col-lg-4 col-sm-6">
+					  				<div class="group_points">
+					  					<p>المحرك: 1.2 لتر، 3-اسطوانات </p>
+					  					<p>القوة القصوى: 87 حصان</p>
+					  					<p>العزم الأقصى 113 ن.م / 4500 د.د</p>
+					  					<p>ناقل حركة تتابعي متغير  (CVT)</p>
+					  				</div>
+					  			</div>
+					  			<div class="col-lg-4 col-sm-6">
+					  				<div class="group_points">
+					  					<p>المحرك: 1.2 لتر، 3-اسطوانات </p>
+					  					<p>القوة القصوى: 87 حصان</p>
+					  					<p>العزم الأقصى 113 ن.م / 4500 د.د</p>
+					  					<p>ناقل حركة تتابعي متغير  (CVT)</p>
+					  				</div>
+					  			</div>
+					  		</div>
+					  	</div>
+					</div>
+				</div>
+			</div>
+			<div class="bk_car_middle">
+				<div class="container">
+					<div class="car_middle_rw">
+						<div class="row align-items-center">
+							<div class="col-md-6">
+								<div class="thumb_bk">
+									<img src="images/asri.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="txt_editor">
+									<h3>تصميم عصري و أنيق</h3>
+									<p>سيارة مدمجة تمتلك جميع خصائص السيارة الرياضية متعددة الأغراض. مع التصميم المميز للشبك الأمامي لدى تويوتا وتحدد بوضوح سيارة رايز على أنها جزء من عائلة سيارات ال SUV من تويوتا، مع إعطائها الهوية الخاصة بها</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="car_middle_rw">
+						<div class="row align-items-center">
+							<div class="col-md-6 order-md-12">
+								<div class="thumb_bk">
+									<img src="images/rttt.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-md-6 order-md-1">
+								<div class="txt_editor">
+									<h3>رحابة داخلية</h3>
+									<p>تتميز رايز من الداخل بأجواء مريحة و مستويات رحابة تميزها في فئتها. تمتلك مقصورة قيادة محددة المعالم بدءاً من الجزء الأمامي، وتحتوي على العدادات وشاشة العرض وعناصر التحكم بتصميم موجه ناحية السائق، مما يخلق مساحة محكمة ومركزة على السائق والتي تجعلك ترغب في القيادة.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bk_programe">
+				<div class="container">
+					<div class="programe_content">
+						<div class="row align-items-center">
+							<div class="col-md-6">
+								<div class="programe_pic">
+									<img src="images/booking-pic.png" alt="">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="txt_editor">
+									<h3>برنامج جميل للصيانة</h3>
+									<p>اﻟﺑرﻧﺎﻣﺞ ﯾﻧطﺑﻖ ﻓﻘط ﻋﻠﻰ ﺳﯾﺎرات ﺗوﯾوﺗﺎ اﻟﺟدﯾدة اﻟﻣﺳﺗوردة ﻋن طرﯾﻖ اﻟﻣوزع اﻟﻣﻌﺗﻣد ﻟﺷرﻛﺔ ﺗوﯾوﺗﺎ ﺑﺎﻟﻣﻣﻠﻛﺔ اﻟﻌرﺑﯾﺔ اﻟﺳﻌودﯾﺔ (ﻋﺑداﻟﻠطﯾف ﺟﻣﯾل) واﻟﻣﺑﺎﻋﺔ من 1 يناير 2020 حتى نهاية 2022.</p>
+									<a href="#" class="btn btn_prim">اكتشف المزيد<span class="btn_icon"><i class="far fa-long-arrow-left"></i></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="box_subscription">
+							<div class="box_subscription_content">
+								<div class="icon_box">
+									<img src="images/email-vector.svg" alt="">
+								</div>
+								<h2>احصل على كل جديد الان!</h2>
+								<p>قم بالاشتراك بالقائمة البريدية ليصلك كل ما هو جديد في عالم السيارات  مع هلا اوتو</p>
+								<form class="form_subscription" action="#">
+									<input type="email" class="form-control" placeholder="البريد الالكتروني">
+									<button type="submit" class="btn btn_prim btn_scribe">اشترك الان<span class="btn_icon"><i class="far fa-long-arrow-left"></i></span></button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="ft_box">
+									<h2>هلا اوتو للسيارات</h2>
+									<div class="group_info">
+										<p>الرياض – السعودية</p>
+										<p>011-2160022</p>
+										<p>info@halaauto.com</p>
+										<p>السبت – الخميس : 08 صباحا to 09 مساءا</p>
+										<ul class="ft_social clearfix">
+											<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+											<li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="ft_box">
+									<h2>روابط سريعة</h2>
+									<ul class="ft_menu clearfix">
+										<li><a href="#">تويوتا</a></li>
+										<li><a href="#">حجز مواعيد الصيانة</a></li>
+										<li><a href="#">لكزس</a></li>
+										<li><a href="#">التوظيف</a></li>
+										<li><a href="#">العروض</a></li>
+										<li><a href="#">من نحن</a></li>
+										<li><a href="#">طلب شراء</a></li>
+										<li><a href="#">قطع غيار</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bottom_footer d-flex justify-content-end">
+					<ul class="bt_menu clearfix">
+						<li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+						<li><a href="terms-condation.html">الشروط والاحكام</a></li>
+					</ul>
+					<div class="copy_right"><p>جميع الحقوق محفوظة لـ هلا اوتو 2022</p></div>
+				</div>
+			</div>
+		</footer><!--footer-->
+	</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+		$(document).ready(function(){
+			$('.slider-for').slick({
+			  slidesToShow: 1,
+			  slidesToScroll: 1,
+			  arrows: false,
+			  dots: false,
+			  fade: true,
+			  rtl:true,
+			  asNavFor: '.slider-nav'
+			});
+			$('.slider-nav').slick({
+			  slidesToShow: 11,
+			  slidesToScroll: 1,
+			  asNavFor: '.slider-for',
+			  dots: false,
+			  arrows: false,
+			  centerMode: false,
+			  rtl:true,
+			  focusOnSelect: true,
+			});
+
+		});
+	</script>
+</body>
+</html>	
